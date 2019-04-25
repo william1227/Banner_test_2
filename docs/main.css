@@ -1,0 +1,31 @@
+
+
+.banner{
+	animation-name: blue-to-red; 
+    animation-duration: 4s;    
+    width: 320px; 
+    height: 100px;
+}
+
+    @keyframes blue-to-red {
+        from { background: blue; }
+        to{ background: red; }
+
+        /* Keyframes tilbyder to måder at håndtere dem på: 
+        
+        1.
+        Som vist i eksemplet for oven. 
+        from "En CSS tilstand" to "En anden CSS tilstand"
+
+        eller 
+
+        2. 
+        0% "En CSS tilstand" 100% "En anden CSS tilstand" ville være en oversættelse 
+        af ovenstående eksempel med procent i stedet for "from-to-metonden.
+        Med procent er der mulighed for at skifte mellem mange forskellige 
+        tilstande i løbet af animationen fx. 10% 15% 22% 78%, her har du 
+        mulighed for at fin-tune hvad der skal ske i animationen. 
+        */
+        
+
+    }
